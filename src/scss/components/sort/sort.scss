@@ -1,0 +1,47 @@
+.sort-block {
+
+  padding: 10px 0;
+
+  & h3 {
+    margin: 0 10px 0 0;
+  }
+
+  &:hover .sort__dropdown-list {
+    display: block;
+  }
+
+}
+
+.sort {
+
+  &__list {
+    position: relative;
+  }
+
+  &__list li a {
+    color: color(gray-6);
+  }
+
+  &__dropdown-list {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+    z-index: 12;
+    background-color: color(gray-1);
+    width: 180px;
+  }
+
+  &__dropdown-list li {
+    padding: 5px;
+  }
+
+  &__dropdown-list li:hover {
+    background-color: color(gray-3);
+  }
+
+  &__dropdown-list:hover {
+    display: block;
+  }
+
+}

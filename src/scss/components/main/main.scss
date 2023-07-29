@@ -1,0 +1,26 @@
+.main{
+  margin: 125px 0 0 0;
+}
+
+.breadcrumbs{
+
+  overflow-y: auto;
+
+  min-width: 100%;
+  height: 50px;
+
+  &__items{}
+  &__item{}
+
+  &__item a{
+    color: color(gray-6);
+    white-space: nowrap;
+  }
+
+  &__arrow{
+    transform: rotate(-180deg);
+    margin-right: 5px;
+  }
+
+}
+

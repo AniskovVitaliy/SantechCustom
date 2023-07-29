@@ -1,0 +1,23 @@
+@mixin sm__max() {
+  @media (max-width: map-get($breakpoints, sm)) {
+    @content;
+  }
+}
+
+@mixin md__max() {
+  @media (max-width: map-get($breakpoints, md)) {
+    @content;
+  }
+}
+
+@mixin xl__max() {
+  @media (max-width: map-get($breakpoints, xl)) {
+    @content;
+  }
+}
+
+@mixin xxl__max() {
+  @media (max-width: map-get($breakpoints, xxl)) {
+    @content;
+  }
+}

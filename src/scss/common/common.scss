@@ -1,0 +1,73 @@
+//Модификаторы и общие стили
+body {
+  color: color(gray-6);
+}
+
+._container {
+  width: map-get($container, xxl);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+._text-sm {
+  font-size: 1.2rem;
+}
+
+._text-md {
+  font-size: 1.4rem;
+}
+
+._text-lg {
+  font-size: 1.6rem;
+}
+
+._text-xl {
+  font-size: 1.8rem;
+}
+
+._text-xxl {
+  font-size: 2rem;
+}
+
+._radius {
+  border-radius: 3px;
+}
+
+._box-shadow-l {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+._box-shadow-s {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid color(gray-6);
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.sub-menu__arrow.arrow {
+  border-right: none;
+  border-left: 10px solid color(gray-6);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.button {
+  max-width: 150px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+}

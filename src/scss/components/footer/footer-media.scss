@@ -1,0 +1,8 @@
+@include md__max{
+  .footer__pc{
+    display: none;
+  }
+  .footer__mobile{
+    display: flex;
+  }
+}

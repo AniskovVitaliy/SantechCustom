@@ -1,0 +1,23 @@
+._hide{
+  display: none!important;
+}
+
+._show-b{
+  display: block!important;
+}
+
+._show-f{
+  display: flex!important;
+}
+
+._w-0{
+  width: 0;
+}
+
+._h-0{
+  height: 0;
+}
+
+.no-click{
+  pointer-events: none;
+}

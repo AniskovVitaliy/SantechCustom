@@ -1,0 +1,27 @@
+.footer{
+  color: color(gray-1);
+  background-color: color(gray-7);
+}
+
+.footer__container > div{
+  height: 50px;
+}
+
+.footer__mobile{
+  display: none;
+}
+
+.footer__mobile div{
+  width: 33.333%;
+  height: 100%;
+}
+
+.footer__pc{
+  padding: 0 0 10px 0;
+}
+
+
+//
+//.footer .mobile-content span{
+//  display: inline-block;
+//}
