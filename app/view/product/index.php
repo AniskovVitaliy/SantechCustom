@@ -95,14 +95,14 @@
     </ul>
 </nav>
 
-<header class="header">
+<header class="header _box-shadow-l">
     <!-- TOP PART OF HEADER -->
     <div class="header__block _container">
         <div class="header__content _row-between _item-center">
 
             <!-- LOGO -->
             <div class="logo">
-                <div class="logo__title _t-xxl"><a href="/">Дом и Дача</a></div>
+                <div class="logo__title _text-xxl"><a href="/">Дом и Дача</a></div>
                 <div class="logo__sub-title">магазин товаров для дома</div>
             </div>
             <!-- ./LOGO -->
@@ -124,7 +124,7 @@
                     <div class="icons__item-icon">
                         <span class="google_icon-shopping icon"></span>
                     </div>
-                    <div class="icons__item-price _t-md">
+                    <div class="icons__item-price _text-md">
                         000.00 руб.
                     </div>
                 </div>
@@ -138,10 +138,10 @@
         <div class="main-menu__blocks _row-left">
             <div class="main-menu__top _row-between _hide">
                 <div class="main-menu__top-button-back btn_back _space-auto"><span class="google_icon-arrow_back_1 icon"></span></div>
-                <div class="main-menu__top-title _t-xl">Категории</div>
+                <div class="main-menu__top-title _text-xl">Категории</div>
                 <div class="main-menu__top-close _space-auto _row-right"><span class="google_icon-close icon"></span></div>
             </div>
-            <div class="main-menu__middle _t-lg">
+            <div class="main-menu__middle _text-lg">
                 <nav class="menu">
                     <ul class="menu__list">
                         <li><a href="#" class="menu__link">Семена</a></li>
@@ -203,298 +203,121 @@
 <main class="main _space-auto">
     <div class="_container">
 
-        <!-- SLIDER -->
-        <div class="slider">
-            <div class="slider__item">
-                <div class="slider__item-container _row-evenly">
-                    <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
-                            <h3>Какой-то Title</h3>
-                        </div>
-                        <div class="slider__left-content-text _t-sm">
-                            Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
-                        </div>
-                        <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
-                                <span class="google_icon-double_arrow"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__right-content">
-                        <div class="slider__image-block">
+        <!-- BREADCRUMBS -->
+        <nav class="breadcrumbs _row-left _item-center">
+            <ul class="breadcrumbs__items _row-left">
+                <li class="breadcrumbs__item _row-left _item-center">
+                    <a href="" class="_text-md">Главная</a>
+                    <div class="breadcrumbs__arrow"><span class="google_icon-arrow_back_2"></span></div>
+                </li>
+                <li class="breadcrumbs__item _row-left _item-center">
+                    <a href="" class="_text-md">Сантехника</a>
+                    <div class="breadcrumbs__arrow"><span class="google_icon-arrow_back_2"></span></div>
+                </li>
+                <li class="breadcrumbs__item _row-left _item-center">
+                    <a href="" class="_text-md">Смесители</a>
+                    <div class="breadcrumbs__arrow"><span class="google_icon-arrow_back_2"></span></div>
+                </li>
+                <li class="breadcrumbs__item _row-left _item-center">
+                    <a href="" class="_text-md">Для кухни</a>
+                    <div class="breadcrumbs__arrow"><span class="google_icon-arrow_back_2"></span></div>
+                </li>
+                <li class="breadcrumbs__item _row-left _item-center">
+                    <a href="" class="_text-md">frap 512</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- ./BREADCRUMBS -->
+
+        <div class="product">
+            <div class="product__title _text-xl">
+                <h2>Product name (article)</h2>
+            </div>
+
+            <div class="product__block _row-between">
+                <div class="product__left-column">
+                    <div class="product-slider _column-start _item-center">
+                        <div class="product-slider__main-img-block">
                             <img src="/app/view/asset/img/png/1.png" alt="">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__item">
-                <div class="slider__item-container _row-evenly">
-                    <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
-                            <h3>Какой-то Title</h3>
-                        </div>
-                        <div class="slider__left-content-text _t-sm">
-                            Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
-                        </div>
-                        <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
-                                <span class="google_icon-double_arrow"></span>
+                        <div class="product-slider__slider-track _row-between-wrap">
+                            <div class="product-slider__slider-item active">
+                                <img src="/app/view/asset/img/png/1.png" alt="">
+                            </div>
+                            <div class="product-slider__slider-item">
+                                <img src="/app/view/asset/img/png/2.png" alt="">
+                            </div>
+                            <div class="product-slider__slider-item">
+                                <img src="/app/view/asset/img/png/3.png" alt="">
+                            </div>
+                            <div class="product-slider__slider-item">
+                                <img src="/app/view/asset/img/png/4.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="slider__right-content">
-                        <div class="slider__image-block">
-                            <img src="/app/view/asset/img/png/2.png" alt="">
-                        </div>
+                </div>
+                <div class="product__right-column _column-start _item-end">
+                    <div class="product__price _text-md">000.00 руб</div>
+                    <div class="product__tags _row-right-wrap _text-md">
+                        <div class="product__tag active">white</div>
+                        <div class="product__tag">black</div>
+                        <div class="product__tag">red</div>
+                        <div class="product__tag">blue</div>
                     </div>
                 </div>
             </div>
-            <div class="slider__item">
-                <div class="slider__item-container _row-evenly">
-                    <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
-                            <h3>Какой-то Title</h3>
-                        </div>
-                        <div class="slider__left-content-text _t-sm">
-                            Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
-                        </div>
-                        <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
-                                <span class="google_icon-double_arrow"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__right-content">
-                        <div class="slider__image-block">
-                            <img src="/app/view/asset/img/png/3.png" alt="">
-                        </div>
-                    </div>
+
+            <div class="product__bottom">
+                <div class="product__bottom-title _text-lg">
+                    <h3>Характеристики</h3>
                 </div>
-            </div>
-            <div class="slider__item">
-                <div class="slider__item-container _row-evenly">
-                    <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
-                            <h3>Какой-то Title</h3>
-                        </div>
-                        <div class="slider__left-content-text _t-sm">
-                            Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
-                        </div>
-                        <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
-                                <span class="google_icon-double_arrow"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__right-content">
-                        <div class="slider__image-block">
-                            <img src="/app/view/asset/img/png/4.png" alt="">
-                        </div>
-                    </div>
-                </div>
+                <div class="line"></div>
+                <table class="character">
+                    <thead>
+                    <tr>
+                        <th>propertyName</th>
+                        <th>value</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>propertyName1</td>
+                        <td>value1</td>
+                    </tr>
+                    <tr>
+                        <td>propertyName2</td>
+                        <td>value2</td>
+                    </tr>
+                    <tr>
+                        <td>propertyName3</td>
+                        <td>value3</td>
+                    </tr>
+                    <tr>
+                        <td>propertyName4</td>
+                        <td>value4</td>
+                    </tr>
+                    <tr>
+                        <td>propertyName5</td>
+                        <td>value5</td>
+                    </tr>
+                    <tr>
+                        <td>propertyName6</td>
+                        <td>value6</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <!-- ./SLIDER -->
-
-        <!-- PRODUCT CARDS -->
-        <div class="cards">
-            <div class="cards__title _t-lg">Продукты</div>
-            <div class="line"></div>
-            <div class="cards__item _row-between-wrap">
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта Название продукта Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/4.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-        <!-- ./PRODUCT CARDS -->
-
-        <!-- CATEGORIES CARDS -->
-        <div class="cards">
-            <div class="cards__title _t-lg">Категории</div>
-            <div class="line"></div>
-            <div class="cards__item _row-between-wrap">
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта Название продукта Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/4.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-                <a class="card-item _column-start">
-                    <div class="card-item__top-block">
-                        <div class="card-item__image-block">
-                            <img src="/app/view/asset/img/png/1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
-                        Название продукта
-                    </div>
-                    <div class="card-item__bottom-block _row-between _item-end">
-                        <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
-                        </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-        <!-- ./CATEGORIES CARDS -->
 
     </div>
 </main>
 
 <footer class="footer">
-    <div class="footer__container _container _t-md">
+    <div class="footer__container _container _text-md">
         <div class="footer__mobile _row-around _item-center">
             <div class="footer__mobile-search search_btn _row-center _item-center"><span class="google_icon-search icon"></span></div>
             <div class="footer__mobile-basket _row-center _item-center"><span class="google_icon-shopping icon"></span></div>
-            <div class="footer__mobile-menu _row-center _item-center btn_menu"><span class="google_icon-menu_FILL0 icon"></span></div>
+            <div class="footer__mobile-menu _row-center _item-center btn_menu"><span class="google_icon-menu_FILL0 icon btn_menu"></span></div>
         </div>
         <div class="footer__pc _row-left _item-end">
             <span>Все права защищены</span>

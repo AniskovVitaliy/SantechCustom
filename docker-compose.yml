@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
 
-  app:
+  php:
     build:
       dockerfile: ./docker/php/Dockerfile
     volumes:
@@ -11,9 +11,9 @@ services:
       - PHP_IDE_CONFIG=serverName=debugerserver
     depends_on:
       - db
-    container_name: cont_app
+    container_name: cont_php
 
-  nginx:
+  web:
     image: nginx:stable
     volumes:
       - ./:/var/www
@@ -21,8 +21,8 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - app
-    container_name: cont_nginx
+      - php
+    container_name: cont_web
 
   db:
     image: mysql:8.0
@@ -46,8 +46,13 @@ services:
         - PMA_ARBITRARY=1
     depends_on:
         - db
+    container_name: cont_phpmyadmin
 
-#  npm:
-#    build:
-#      dockerfile: ./docker/node/Dockerfile
-#    container_name: cont_npm
+  node:
+    container_name: cont_node
+    build:
+      dockerfile: ./docker/node/Dockerfile
+    tty: true
+    volumes:
+      - ./:/app
+

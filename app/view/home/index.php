@@ -102,7 +102,7 @@
 
             <!-- LOGO -->
             <div class="logo">
-                <div class="logo__title _t-xxl"><a href="/">Дом и Дача</a></div>
+                <div class="logo__title _text-xxl"><a href="/">Дом и Дача</a></div>
                 <div class="logo__sub-title">магазин товаров для дома</div>
             </div>
             <!-- ./LOGO -->
@@ -124,7 +124,7 @@
                     <div class="icons__item-icon">
                         <span class="google_icon-shopping icon"></span>
                     </div>
-                    <div class="icons__item-price _t-md">
+                    <div class="icons__item-price _text-md">
                         000.00 руб.
                     </div>
                 </div>
@@ -138,10 +138,10 @@
         <div class="main-menu__blocks _row-left">
             <div class="main-menu__top _row-between _hide">
                 <div class="main-menu__top-button-back btn_back _space-auto"><span class="google_icon-arrow_back_1 icon"></span></div>
-                <div class="main-menu__top-title _t-xl">Категории</div>
+                <div class="main-menu__top-title _text-xl">Категории</div>
                 <div class="main-menu__top-close _space-auto _row-right"><span class="google_icon-close icon"></span></div>
             </div>
-            <div class="main-menu__middle _t-lg">
+            <div class="main-menu__middle _text-lg">
                 <nav class="menu">
                     <ul class="menu__list">
                         <li><a href="#" class="menu__link">Семена</a></li>
@@ -208,10 +208,10 @@
             <div class="slider__item">
                 <div class="slider__item-container _row-evenly">
                     <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
+                        <div class="slider__left-content-title _text-xl">
                             <h3>Какой-то Title</h3>
                         </div>
-                        <div class="slider__left-content-text _t-sm">
+                        <div class="slider__left-content-text _text-sm">
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
@@ -230,10 +230,10 @@
             <div class="slider__item">
                 <div class="slider__item-container _row-evenly">
                     <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
+                        <div class="slider__left-content-title _text-xl">
                             <h3>Какой-то Title</h3>
                         </div>
-                        <div class="slider__left-content-text _t-sm">
+                        <div class="slider__left-content-text _text-sm">
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
@@ -252,10 +252,10 @@
             <div class="slider__item">
                 <div class="slider__item-container _row-evenly">
                     <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
+                        <div class="slider__left-content-title _text-xl">
                             <h3>Какой-то Title</h3>
                         </div>
-                        <div class="slider__left-content-text _t-sm">
+                        <div class="slider__left-content-text _text-sm">
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
@@ -274,10 +274,10 @@
             <div class="slider__item">
                 <div class="slider__item-container _row-evenly">
                     <div class="slider__left-content _column-start">
-                        <div class="slider__left-content-title _t-xl">
+                        <div class="slider__left-content-title _text-xl">
                             <h3>Какой-то Title</h3>
                         </div>
-                        <div class="slider__left-content-text _t-sm">
+                        <div class="slider__left-content-text _text-sm">
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
@@ -298,7 +298,7 @@
 
         <!-- PRODUCT CARDS -->
         <div class="cards">
-            <div class="cards__title _t-lg">Продукты</div>
+            <div class="cards__title _text-lg">Продукты</div>
             <div class="line"></div>
             <div class="cards__item _row-between-wrap">
 
@@ -308,14 +308,14 @@
                             <img src="/app/view/asset/img/png/1.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта Название продукта Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -325,14 +325,14 @@
                             <img src="/app/view/asset/img/png/2.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -342,14 +342,14 @@
                             <img src="/app/view/asset/img/png/3.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -359,14 +359,14 @@
                             <img src="/app/view/asset/img/png/4.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -376,14 +376,14 @@
                             <img src="/app/view/asset/img/png/1.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -393,7 +393,7 @@
 
         <!-- CATEGORIES CARDS -->
         <div class="cards">
-            <div class="cards__title _t-lg">Категории</div>
+            <div class="cards__title _text-lg">Категории</div>
             <div class="line"></div>
             <div class="cards__item _row-between-wrap">
 
@@ -403,14 +403,14 @@
                             <img src="/app/view/asset/img/png/1.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта Название продукта Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -420,14 +420,14 @@
                             <img src="/app/view/asset/img/png/2.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -437,14 +437,14 @@
                             <img src="/app/view/asset/img/png/3.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -454,14 +454,14 @@
                             <img src="/app/view/asset/img/png/4.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -471,14 +471,14 @@
                             <img src="/app/view/asset/img/png/1.png" alt="">
                         </div>
                     </div>
-                    <div class="card-item__middle-block _space-auto _t-md">
+                    <div class="card-item__middle-block _space-auto _text-md">
                         Название продукта
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
                             <div class="button _row-between _item-center">Корзина</div>
                         </div>
-                        <div class="card-item__price _t-md">000.00 руб</div>
+                        <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
                 </a>
 
@@ -490,7 +490,7 @@
 </main>
 
 <footer class="footer">
-    <div class="footer__container _container _t-md">
+    <div class="footer__container _container _text-md">
         <div class="footer__mobile _row-around _item-center">
             <div class="footer__mobile-search search_btn _row-center _item-center"><span class="google_icon-search icon"></span></div>
             <div class="footer__mobile-basket _row-center _item-center"><span class="google_icon-shopping icon"></span></div>
