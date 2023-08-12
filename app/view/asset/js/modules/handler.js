@@ -1,6 +1,6 @@
 import {doc} from "./variables.js";
 
-export class Handler{
+export class Handler {
 
     /**
      * Перебираем массив с элементами и отдает элементы в коллбек
@@ -10,7 +10,7 @@ export class Handler{
      */
     static getElements(elements, callback) {
 
-        if(!elements.length && doc.body.contains(elements)){
+        if (!elements.length && doc.body.contains(elements)) {
             return callback(elements);
         }
 
@@ -36,7 +36,7 @@ export class Handler{
      * @param event - тип события
      * @param callback
      */
-    static createEvents(elements, event, callback){
+    static createEvents(elements, event, callback) {
 
         Handler.getElements(elements, function (element) {
 
@@ -53,7 +53,7 @@ export class Handler{
      * @param elements - элементы
      * @param className - имя класса
      */
-    static removeClassName(elements, className){
+    static removeClassName(elements, className) {
         Handler.getElements(elements, function (element) {
             if (element.classList.contains(className)) {
                 element.classList.remove(className)
@@ -67,7 +67,7 @@ export class Handler{
      * @param elements - элементы
      * @param className - имя класса
      */
-    static addClassName(elements, className){
+    static addClassName(elements, className) {
         Handler.getElements(elements, function (element) {
             if (!element.classList.contains(className)) {
                 element.classList.add(className)
@@ -81,7 +81,7 @@ export class Handler{
      * @param elements - элементы
      * @param className - имя класса
      */
-    static addOrRemoveClassName(elements, className){
+    static addOrRemoveClassName(elements, className) {
         Handler.getElements(elements, function (element) {
             element.classList.toggle(className);
         })

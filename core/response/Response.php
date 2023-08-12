@@ -10,7 +10,7 @@ class Response
      */
     public static function html($template, $data)
     {
-        $templateUrl = $_SERVER['DOCUMENT_ROOT'] . '/app/view/' . str_replace('.', '/', $template) . '.php';
+        $templateUrl = $_SERVER['DOCUMENT_ROOT'] . '/app/view/templates/' . str_replace('.', '/', $template) . '.php';
         echo self::getHtml($templateUrl, $data);
     }
 

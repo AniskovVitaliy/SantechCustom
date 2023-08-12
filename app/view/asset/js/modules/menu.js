@@ -33,7 +33,7 @@ export class Menu {
      *
      * @param arrows
      */
-    initArrow(arrows){
+    initArrow(arrows) {
         arrows.forEach(function (arrow) {
             arrow.previousElementSibling.classList.add('parent');
         })
@@ -44,7 +44,7 @@ export class Menu {
      *
      * @param arrows - стрелки для меню
      */
-    arrowEvents(arrows){
+    arrowEvents(arrows) {
         Handler.createEvents(arrows, 'click', function (e, arrow) {
             arrow.nextElementSibling.classList.toggle('open'); // вещает/убирает open на ul под arrow
             arrow.classList.toggle('active'); // вещает/убирает на элемент arrow active

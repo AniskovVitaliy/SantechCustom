@@ -1,0 +1,15 @@
+@import "../common/index";
+
+/* header */
+@import "../components/header";
+@import "../components/header_menu";
+@import "../components/search";
+
+/* main */
+@import "../components/main";
+@import "../components/cards";
+@import "../components/sort";
+@import "../components/pagination";
+
+/* footer */
+@import "../components/footer";

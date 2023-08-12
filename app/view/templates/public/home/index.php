@@ -80,7 +80,7 @@
     <!--./icomoon-->
 
     <!--main css-->
-    <link rel="stylesheet" href="/app/view/asset/css/index.css">
+    <link rel="stylesheet" href="/app/view/asset/css/public/index.css">
     <!--./main css-->
 </head>
 <body class="_column-start">
@@ -95,7 +95,7 @@
     </ul>
 </nav>
 
-<header class="header">
+<header class="header _box-shadow-l">
     <!-- TOP PART OF HEADER -->
     <div class="header__block _container">
         <div class="header__content _row-between _item-center">
@@ -215,7 +215,7 @@
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
+                            <div class="button _row-between _item-center _radius">Подробнее
                                 <span class="google_icon-double_arrow"></span>
                             </div>
                         </div>
@@ -237,7 +237,7 @@
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
+                            <div class="button _row-between _item-center _radius">Подробнее
                                 <span class="google_icon-double_arrow"></span>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
+                            <div class="button _row-between _item-center _radius">Подробнее
                                 <span class="google_icon-double_arrow"></span>
                             </div>
                         </div>
@@ -281,7 +281,7 @@
                             Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
                         </div>
                         <div class="slider__left-content-button">
-                            <div class="button _row-between _item-center">Подробнее
+                            <div class="button _row-between _item-center _radius">Подробнее
                                 <span class="google_icon-double_arrow"></span>
                             </div>
                         </div>
@@ -313,7 +313,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -330,7 +330,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -347,7 +347,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -364,7 +364,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -381,7 +381,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -408,7 +408,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -425,7 +425,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -442,7 +442,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -459,7 +459,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>
@@ -476,7 +476,7 @@
                     </div>
                     <div class="card-item__bottom-block _row-between _item-end">
                         <div class="card-item__button">
-                            <div class="button _row-between _item-center">Корзина</div>
+                            <div class="button _row-between _item-center _radius">Корзина</div>
                         </div>
                         <div class="card-item__price _text-md">000.00 руб</div>
                     </div>

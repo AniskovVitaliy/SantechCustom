@@ -1,6 +1,6 @@
 <?php
 
-namespace app\controller\category;
+namespace app\controller\public\category;
 
 use Core\controller\Controller;
 use Core\response\Response;
@@ -10,7 +10,7 @@ class IndexController extends Controller
 
     public function index()
     {
-        Response::html('category.index', []);
+        Response::html('public.category.index', []);
     }
 
 }

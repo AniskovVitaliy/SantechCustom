@@ -1,6 +1,6 @@
 <?php
 
-namespace App\controller\home;
+namespace App\controller\public\home;
 
 use Core\response\Response;
 
@@ -10,6 +10,6 @@ class IndexController
     {
         $title = 'Home page';
         $content = 'Content';
-        Response::html('home.index', compact('title', 'content'));
+        Response::html('public.home.index', compact('title', 'content'));
     }
 }

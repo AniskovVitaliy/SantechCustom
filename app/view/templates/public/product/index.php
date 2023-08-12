@@ -80,7 +80,7 @@
     <!--./icomoon-->
 
     <!--main css-->
-    <link rel="stylesheet" href="/app/view/asset/css/index.css">
+    <link rel="stylesheet" href="/app/view/asset/css/public/product.css">
     <!--./main css-->
 </head>
 <body class="_column-start">
