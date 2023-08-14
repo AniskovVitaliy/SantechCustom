@@ -22,3 +22,6 @@ Route::get('/product', \app\controller\public\product\IndexController::class, 'i
 // Home
 Route::get('/admin', \App\controller\admin\home\IndexController::class, 'index')->name('admin.home.index');
 
+//test
+Route::post('/main', \App\controller\Main::class, 'show');
+

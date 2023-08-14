@@ -20,11 +20,13 @@ class Main extends Controller
         }
     }
 
-    public function show($first_param, $last_param, MainRequest $mainRequest)
+    public function show(MainRequest $mainRequest)
     {
         $request = $mainRequest->validate();
 
-        echo 'вы перешли по адресу: /hello/' . $first_param . '/product/' . $last_param . $request->get('test1');
+        ///hello/' . $first_param . '/product/' . $last_param
+
+        echo 'вы перешли по адресу: ' . $request->get('test1');
     }
 
 }

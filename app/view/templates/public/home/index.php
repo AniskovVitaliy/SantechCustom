@@ -489,6 +489,11 @@
     </div>
 </main>
 
+<form action="/main" method="post">
+    <input type="text" name="test1" value="">
+    <input type="submit" value="submit">
+</form>
+
 <footer class="footer">
     <div class="footer__container _container _text-md">
         <div class="footer__mobile _row-around _item-center">

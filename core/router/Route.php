@@ -7,13 +7,10 @@ class Route
     private static array $Routes;
     private static array $RouteParameters = [];
 
-//    private static array $GetParameters = [];
-//    private static array $PostParameters = [];
-
     public static function get($route, $controller, $method)
     {
         $route = new RouteBuilder($route, $controller, $method);
-        self::$Routes['get'][] = $route;
+        self::$Routes['GET'][] = $route;
 
         return $route;
     }
@@ -21,12 +18,12 @@ class Route
     public static function post($route, $controller, $method)
     {
         $route = new RouteBuilder($route, $controller, $method);
-        self::$Routes['post'][] = $route;
+        self::$Routes['POST'][] = $route;
 
         return $route;
     }
 
-    public static function getRoute($key = null)
+    public static function getRouteList($key = null)
     {
         return $key ? self::$Routes[$key] : self::$Routes;
     }
@@ -45,26 +42,4 @@ class Route
     {
         header('Location: http://' . $url);
     }
-
-//    public static function setPostParameters($post)
-//    {
-//        self::$PostParameters = [...self::$PostParameters, ...$post];
-//    }
-//
-//    public static function setGetParameters($get)
-//    {
-//        self::$GetParameters = [...self::$GetParameters, ...$get];
-//    }
-
-//    public static function setPostParameters($post)
-//    {
-//        return self::$PostParameters = $post;
-//    }
-//
-//    public static function setGetParameters($get)
-//    {
-//        return self::$GetParameters = $get;
-//    }
-
-
 }

@@ -10,8 +10,8 @@ class MainRequest extends Request
     {
         return [
             'test1' => 'string',
-            'test2' => 'integer',
-            'test3' => 'bool'
+            //'test2' => 'integer',
+            //'test3' => 'bool'
         ];
     }
 }

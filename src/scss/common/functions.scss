@@ -1,6 +1,0 @@
-/**
-Вернет цвет по названию из :root
- */
-@function color($name) {
-  @return var(--color-#{$name});
-}

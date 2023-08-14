@@ -1,2 +1,4 @@
 vendor
 db_data
+src
+node_modules

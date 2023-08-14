@@ -14,7 +14,7 @@ class App
         (new Error())->register();
 
         $routeData = RouteDispatcher::handler(
-            $_POST ? Route::getRoute('post') : Route::getRoute('get'),
+            Route::getRouteList($_SERVER['REQUEST_METHOD']),
             parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
         );
 
